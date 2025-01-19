@@ -1,0 +1,43 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 8px;
+
+  font-family: Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #e6ad77;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border: 1px solid rgba(255, 136, 0, 0.05);
+  border-radius: 5px;
+
+  font-size: 24px;
+  color: #e6ad77;
+
+  transition: border-color 250ms linear, filter 250ms linear;
+}
+.link:hover,
+.link:focus {
+  outline: transparent;
+  filter: drop-shadow(0px 0px 5px #ff7f08);
+  border-color: rgba(255, 136, 0, 0.4);
+}
+
+.ico {
+  width: 40px;
+  height: 40px;
+
+  color: #ff7f08;
+}

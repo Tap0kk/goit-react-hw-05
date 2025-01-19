@@ -1,0 +1,33 @@
+.wrap {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.img {
+  align-items: center;
+  width: 100px;
+  height: 150px;
+}
+
+.name {
+  color: var(--second-color);
+  text-align: center;
+}
+.role {
+  color: var(--background-color);
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .img {
+    width: 150px;
+    height: 200px;
+  }
+}

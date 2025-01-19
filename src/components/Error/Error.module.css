@@ -1,0 +1,39 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.img {
+  max-width: 300px;
+}
+
+.message_wrap {
+  padding-top: 30px;
+}
+
+.title {
+  margin-bottom: 12px;
+
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.text {
+  margin-left: 20px;
+  margin-bottom: 8px;
+
+  font-size: 18px;
+}
+
+.message {
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: underline;
+}
