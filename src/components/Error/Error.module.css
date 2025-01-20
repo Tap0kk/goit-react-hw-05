@@ -2,7 +2,9 @@
   display: flex;
   justify-content: center;
   column-gap: 30px;
-  padding: 15px;
+  padding: 15px 40px;
+  max-width: 650px;
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
@@ -11,14 +13,9 @@
   box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.5);
 }
 
-.img {
-  max-width: 300px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.5);
-}
-
 .message_wrap {
   padding-top: 30px;
+  text-align: center;
 }
 
 .title {
