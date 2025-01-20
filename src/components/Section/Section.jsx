@@ -1,9 +1,13 @@
 import s from './Section.module.css';
 
-const Section = ({ children, title }) => {
+const Section = ({ children, title, titleError, isError }) => {
   return (
     <section className={s.section}>
-      {title && <h2 className={s.title}>{title}</h2>}
+      {isError ? (
+        <h2 className={s.titleError}>{titleError}</h2>
+      ) : (
+        <h2 className={s.title}>{title}</h2>
+      )}
       {children}
     </section>
   );

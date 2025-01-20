@@ -5,7 +5,8 @@
   margin-right: auto;
 }
 
-.title {
+.title,
+.titleError {
   padding: 4px 12px 16px 12px;
 
   text-align: center;

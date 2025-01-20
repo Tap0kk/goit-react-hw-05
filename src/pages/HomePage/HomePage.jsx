@@ -35,7 +35,11 @@ const HomePage = () => {
   }, []);
 
   return (
-    <Section title={'Tranding today'}>
+    <Section
+      title={'Tranding today'}
+      titleError={'Sorry, something get wrong...'}
+      isError={isError}
+    >
       {isLoading && <Loader />}
       {isError && <Error err={isError} />}
 
